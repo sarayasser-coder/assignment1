@@ -14,9 +14,9 @@ public class Tests {
 	}
 	@Test
 	public void testAdd2() {
-		function testadd2 = new functions();
+		functions testadd2 = new functions();
 		int resultadd2 = testadd2.add(-1,5);
-		assertEquals(4, resultadd2)
+		assertEquals(4, resultadd2);
 	}
 	
 	@Test
